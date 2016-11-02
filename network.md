@@ -10,14 +10,25 @@ Download [Gephi](http://gephi.github.io/).
 Open the .dmg file. Drag Gephi into Applications. Launch Gephi.
 
 ### Data
- 
 
-Download.
+We will be using Supreme Court data.  We will be working with discrimination cases. 
+
+Code book: http://scdb.wustl.edu/documentation.php?s=1
+
+Edges: https://github.com/introdh2016/labs/blob/master/20050_edges.csv
+
+Nodes: https://github.com/introdh2016/labs/blob/master/20050_nodes.csv
+
+Supreme Court Edges: https://github.com/introdh2016/labs/blob/master/scotus_edges.csv
+
+Supreme Court Nodes: https://github.com/introdh2016/labs/blob/master/scotus_nodes.csv
+
+ 
 
 ### Import data
 
 Open up Gephi and go to the Data Laboratory. 
-File > Import Spreadsheet, and choose `edge.csv`
+File > Import Spreadsheet, and choose `20050_edge.csv`
 on your computer. Make sure you selection Edges Table as the table type. Do you see any problems
 with doing this?
 
@@ -25,7 +36,7 @@ In order to import, Gephi requires the data to be structured with certain labels
 needs columns labeled "Source" and "Target". So, rename the column headers either directly in the
 Google docs or locally on your machine.
 
-Back in Gephi, go to Data Table > Import Spreadsheet. Choose your `edges.csv`. It should now
+Back in Gephi, go to Data Table > Import Spreadsheet. Choose your `20050_edges.csv`. It should now
 import as an edge list. By default, the data will be imported as directed. If we want the data
 to be undirected, add "Type" and use "Undirected".  
 
