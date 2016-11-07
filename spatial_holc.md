@@ -16,8 +16,6 @@ It is the 2010 Census Tiger line data set.
 
 Next, we need to add our city map.  Go to 'Add Data' and select STATE_CITY_DATE.jpg.
 
-#Georeferencing
-
 Open the [ Georeferencing Training Manual](https://github.com/introdh2016/other/blob/master/HOLC%20Georeferencing%20Training%20Manual.pdf) and turn to "Step 4" on page 17 of the PDF.
 
 When you are done, save your work back to Box. 
@@ -34,7 +32,9 @@ To see the city map, drag the city layer to the top.
 
 ##  Explore Census info
 
-Right click on the Census_tract_2010. Select Properties -> Symbology. Change the "Show" on the left side to Quantities. Once there, you can change the "Value" to White, Black or another category. Make sure to normalize by total population (total). You can adjust the number of buckets. Explore!
+Right click on the Census_tract_2010. Select Properties -> Symbology. Change the "Show" on the left side to Quantities. Once there, you can change the "Value" to White, Black or another category. Make sure to normalize by total population ("Total"). You can adjust the number of buckets. Explore!
+
+To make the city map transparent: Right click on the CITY_STATE_NEW.png. Select Properties -> Display -> Transparency and adjust as you see fit. 
 
 ## Information
  If you want to see more data about the census tract,  click on the "i" button next to the cursor button on the top toolbar (right below Geoprocessing). 
