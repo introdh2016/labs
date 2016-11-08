@@ -87,7 +87,11 @@ You'll see a single pop up that doesn't mean much out context. To visualize the 
 selection:
 
 ```
-Appearance -> Nodes -> Attribute -> Modularity Class
+Appearance -> Nodes -> Partition -> Modularity Class
+```
+
+```
+Appearance -> Nodes -> Ranking -> Modularity Class
 ```
 
 Now we have groups of cases (you may need to turn off the labels in order to see them). Now,
@@ -98,11 +102,24 @@ degree of a node:
 Appearance -> Nodes -> Attribute -> Degree
 ```
 
-You can change this to "In-Degree" and "Out-Degree"; notice how it changes the visualization.
+We can look at how many cases that case cited in our network:
 
-%Finally, we can have Gephi calculate the centrality of each node. 
+```
+Appearance -> Nodes -> Attribute -> Out-Degree
+```
 
-% Appearance -> Nodes -> Attribute -> Eigenvector Centrality
+We can look at how many times that case is cited in our network:
+
+```
+Appearance -> Nodes -> Attribute -> In-Degree
+```
+
+We can also look at which cases were considered "liberal" decisions:
+
+ ```
+Appearance -> Nodes -> Partition -> Liberal Flag
+```
+
  
 
 ### Subsetting the graph
@@ -122,10 +139,10 @@ Network:
 Window -> Filters -> Library (double click) -> Topology -> Ego Network
 ```
 
-This allows us to see the local neighborhood of a given node. Type in `500018666` to select
-the neighborhood of Georgia O'Keefe. You can modify the visualization by choosing how many
-degrees of seperation to include, and whether you want to add Georgia O'Keefe directly to
-the graphic.
+This allows us to see the local neighborhood of a given node. Type in `347US483` to select
+the neighborhood of Brown vs Board of Education. You can modify the visualization by choosing how many
+degrees of seperation (Depth) to include, and whether you want to add the case directly to
+the graphic (With Self).
 
 #Related Readings
 
