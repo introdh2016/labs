@@ -19,7 +19,7 @@ Edges: https://github.com/introdh2016/labs/blob/master/20050_edges.csv
 
 Nodes: https://github.com/introdh2016/labs/blob/master/20050_nodes.csv
 
-Supreme Court Edges: https://github.com/introdh2016/labs/blob/master/scotus_edges.csv
+Supreme Court Edges: https://github.com/introdh2016/response3_network/blob/master/ussc-31.zip
 
 Supreme Court Nodes: https://github.com/introdh2016/labs/blob/master/scotus_nodes.csv
 
