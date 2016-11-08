@@ -100,11 +100,10 @@ Appearance -> Nodes -> Attribute -> Degree
 
 You can change this to "In-Degree" and "Out-Degree"; notice how it changes the visualization.
 
-Finally, we can have Gephi calculate the centrality of each node. 
+%Finally, we can have Gephi calculate the centrality of each node. 
 
-```
-Appearance -> Nodes -> Attribute -> Eigenvector Centrality
-```
+% Appearance -> Nodes -> Attribute -> Eigenvector Centrality
+ 
 
 ### Subsetting the graph
 
