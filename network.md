@@ -148,7 +148,7 @@ the graphic (With Self).
 
 Edge list columns must be "Source" and "Target".
 
-Node lists include a column called "ID". 
+Node lists must include a column called "ID". 
 
 #Related Readings
 
