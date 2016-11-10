@@ -144,6 +144,12 @@ the neighborhood of Brown vs Board of Education. You can modify the visualizatio
 degrees of seperation (Depth) to include, and whether you want to add the case directly to
 the graphic (With Self).
 
+## Adjusting Data for Gephi
+
+Edge list columns must be "Source" and "Target".
+
+Node lists include a column called "ID". 
+
 #Related Readings
 
 Cordell, Ryan, “Uncovering Reprinting Networks in Nineteenth-Century American Periodicals.” Am Lit Hist (Fall 2015) 27 (3): 417–445. [Viral Texts Project at Northeastern] (http://viraltexts.org/) and [Networks of Viral Texts](http://networks.viraltexts.org/)
